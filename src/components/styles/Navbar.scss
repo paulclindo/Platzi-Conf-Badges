@@ -1,0 +1,23 @@
+.Navbar {
+    background: #1C3643;
+    width: 100%;
+    padding: .5rem;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+}
+
+.Navbar__brand {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.font-weight-bold {
+    font-weight: bold;
+}

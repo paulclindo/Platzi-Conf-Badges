@@ -1,7 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const container = document.getElementById('app');
+import App from "./components/App";
 
-const element = <h1>Hello, Platzi Badges</h1>;
-ReactDOM.render(element, container);
+import "bootstrap/dist/css/bootstrap.css";
+import "./global.css";
+
+const container = document.getElementById("app");
+
+ReactDOM.render(<App />, container);

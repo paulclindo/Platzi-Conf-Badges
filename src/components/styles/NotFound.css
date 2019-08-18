@@ -1,0 +1,30 @@
+.NotFound__container {
+    height: calc(100vh - 59px);
+    background: #98ca3f;
+    color: #1b1b25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFound__container div {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.NotFound__container a {
+    margin: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #1b1b25;
+    padding: 1rem 3.5rem;
+    text-decoration: none;
+    color: #98ca3f;
+}
+
+.NotFound__container a:hover {
+    text-decoration: none;
+}
