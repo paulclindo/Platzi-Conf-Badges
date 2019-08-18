@@ -73,7 +73,7 @@ module.exports = {
     new AddAssetHtmlPlugin({
       filepath: path.resolve(__dirname, "dist/js/*.dll.js"),
       outputPath: "js",
-      publicPath: "https://paulccari.netlify.com/js"
+      publicPath: "https://paulccari.netlify.com/js/"
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ["**/app.*"]
