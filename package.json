@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm-run-all -p client server",
-    "server": "json-server https://paulccari.netlify.com/server/db.json --watch --static ./dist",
+    "server": "json-server server/db.json --static ./dist",
     "seed": "node server/seed.js",
     "build:dev": "webpack-dev-server --config ./webpack.dev.config.js",
     "build:dll": "webpack --config ./webpack.dll.config.js --mode production",
